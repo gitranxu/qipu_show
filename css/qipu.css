@@ -1,0 +1,14 @@
+.qipan{position: relative;width: 576px;margin: 100px auto;}
+.qipan_bg{position: relative;}
+.qizikuai_bg{width: 30px;height: 30px;border: 1px solid orange;float: left;}
+.qipan_kuai_cntrs{position: absolute;top: -15px;left: -15px;}
+.qipan_kuai_cntr{width: 30px;height: 30px;border: 1px solid transparent;float: left;position: relative;z-index: 2;}
+
+.qizi{width: 30px;height: 30px;border-radius: 50%;position: relative;}
+.white{background: #fff;}
+.black{background: #000;}
+.btns{margin-top: 20px;}
+.btn{padding: 4px 10px;font-size: 20px;color: #fff;background: #776688;;text-align: center;line-height: 20px;border-right: 6px;display: inline-block;cursor: pointer;}
+.btn:hover{background: #556688;}
+.cur_step{width: 30px;height: 28px;display: inline-block;border: none;vertical-align: top;padding-left: 10px;}
+#cur_qizi_flag{width: 10px;height: 10px;border: 1px solid #07CC20;border-radius: 50%;position: absolute;top: 8px;left: 9px;}

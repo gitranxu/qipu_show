@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*样式重置,根据自己的网站量身订做,有就加,没有就不用加上去*/
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin:0;padding:0;}
+em{font-style:normal;}
+li{list-style:none;}
+a{text-decoration:none;color: #000;}
+img{border:none;vertical-align:top;}/*将img放到a中会有border,给它去掉,同时对齐*/
+table{border-collapse:collapse;}/*表格之间有间隙,合并掉*/
+input,textarea{outline:none;}/*在chrome下如果选中的时候,会自动有个高亮的动作,将其去掉*/
+textarea{resize:none;overflow:auto;}
+body{font-size:12px;font-family:"微软雅黑";}/*具体看自己的网站是怎么要求的*/
+
+.clear_rx{zoom:1;} .clear_rx:after{content:"";display: block;clear: both;}
+.fl_rx{float: left;}
+.fr_rx{float: right;}
+.hid_rx{display: none;}
+.ofh_rx{overflow: hidden;}
+.wrap1200{width: 1200px;margin: 0 auto;}
+.relative{position: relative;}
